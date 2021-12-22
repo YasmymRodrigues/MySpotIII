@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">MySpot</string>
+    <string name="title_activity_lista_park">ListaParkActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="details">Details</string>
+    <string name="name">Name:</string>
+    <string name="distance_now">Current distance:</string>
+    <string name="last_update">Last Update:</string>
+    <string name="kind">Kind:</string>
+    <string name="description">Description:</string>
+    <!--//If the drawer is open of close-->
+    <string name="drawer_close">CLOSE</string>
+    <string name="drawer_open">OPEN</string>
+    <string name="availablePark">Available parking:</string>
+    <string name="totalPark">Total parking:</string>
+    <string name="filters">FILTERS</string>
+    <string name="action_park_me_now">Park me Now</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Parques</string>
+    <string name="menu_my_cars">My Cars</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <!--Fragment adicionar itens Carro-->
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="matricula">Matricula</string>
+    <string name="data">Data</string>
+    <string name="enviar">Enviar</string>
+    <string name="carros">Carros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="subscriber_inserted_sucessfully">Subscriber was successfully inserted</string>
+    <string name="subscriber_error_to_insert">There was an error when inserting Subscriber</string>
+    <string name="welcome">Welcome</string>
+    <string name="delete">delete</string>
+    <string name="save">save</string>
+    <string name="date">date</string>
+    <string name="chooseDate">Escolha uma data</string>
+    <string name="registry">Registro</string>
+    <string name="registro">Registro</string>
+    <string name="brand">Marca</string>
+    <string name="createNew">Criar Carro</string>
+    <string name="model">Modelo</string>
+    <string name="contact_blocked_car">Seu carro está bloqueado ? Clique no link abaixo para mais detalhes:</string>
+    <string name="service_points">Pontos de Serviço</string>
+    <string name="service1">LOJA DO CIDADÃO DO SALDANHA</string>
+    <string name="service1_address">Mercado 31 de Janeiro, Rua Engenheiro Vieira da Silva</string>
+    <string name="service1_schedule">Horário: Segunda a Sexta, das 8:30 às 19:00</string>
+    <string name="service2">LOJA DO CIDADÃO DAS LARANJEIRAS</string>
+    <string name="service2_address">Rua Abranches Ferrão, 10</string>
+    <string name="service2_schedule">Horário: Segunda a Sexta, das 8:30 às 19:30 // Sábados, das 9:30 às 15:00</string>
+    <string name="service3">EDIFÍCIO CENTRAL DO MUNICÍPIO DE LISBOA</string>
+    <string name="service3_address">Campo Grande, 25</string>
+    <string name="service3_schedule">Horário: Segunda a Sexta, das 8:00 às 20:00</string>
+    <string name="contact_hyperlink">Clique <a href="https://www.emel.pt/pt/faq/">Aqui</a> para ter o serviço online:</string>
+    <string name="contact_center">Centro para contacto</string>
+    <string name="contact_phone"><b>Telefone:</b> 211 163 060</string>
+    <string name="contact_schedule"><b>Horário:</b> Segunda a Sexta - 8:00 às 20:00 / Sábado - 9:00 às 15:00</string>
+    <string name="settings_header">DarkMode</string>
+    <string name="darkmode_description_off">Não muda para DarkMode quando possui pouca bateria</string>
+    <string name="darkmode_description_on">Muda para o DarkMode quando tem pouca bateria</string>
+    <string name="darkmode_title">Mudar para DarkMode</string>
+    <string name="shake_description_off">Filtros não reiniciados por movimento</string>
+    <string name="shake_description_on">Filtros iniciados por movimento</string>
+    <string name="shake_title">Limpar por movimento</string>
+    <string name="settings">Configurações</string>
+
+
+</resources>
