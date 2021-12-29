@@ -48,3 +48,5 @@ class CarAdapter(val fragmentManager: FragmentManager): RecyclerView.Adapter<Car
         return cars.size
     }
 }
+
+

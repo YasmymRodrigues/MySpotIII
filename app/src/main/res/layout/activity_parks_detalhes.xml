@@ -22,6 +22,7 @@
         android:layout_marginTop="24dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/nomedopark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -42,6 +43,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/distanciadopark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -62,6 +64,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/lastupdateparks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -82,6 +85,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/tipoparks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -102,6 +106,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/totalParks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -122,6 +127,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/availablePark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"

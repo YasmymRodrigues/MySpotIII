@@ -53,5 +53,4 @@ class ListParkFragment : Fragment(), OnListChanged {
         viewModel.unregisterListener()
         super.onDestroy()
     }
-
 }

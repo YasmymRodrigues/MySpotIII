@@ -8,7 +8,7 @@ import kotlinx.coroutines.*
 const val ENDPOINT = "https://emel.city-platform.com/"
 
 class ListParkViewModel : ViewModel() {
-    private val parkRepository = ParkRepository()
+    //private val parkRepository = ParkRepository()
     //private val listParkLogic = ListParkLogic(parkRepository)
     //private val wsLogic = ListParkWSLogic(RetrofitBuilder.getInstance(ENDPOINT))
     private var listener: ListParkFragment? = null

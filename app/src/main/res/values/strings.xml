@@ -52,7 +52,7 @@
     <string name="registry">Registro</string>
     <string name="registro">Registro</string>
     <string name="brand">Marca</string>
-    <string name="createNew">Criar Carro</string>
+    <string name="createNew">Carro</string>
     <string name="model">Modelo</string>
     <string name="contact_blocked_car">Seu carro está bloqueado ? Clique no link abaixo para mais detalhes:</string>
     <string name="service_points">Pontos de Serviço</string>
@@ -77,6 +77,9 @@
     <string name="shake_description_on">Filtros iniciados por movimento</string>
     <string name="shake_title">Limpar por movimento</string>
     <string name="settings">Configurações</string>
+    <string name="EnviarSMS">Enviar SMS</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="number">Numero</string>
 
 
 </resources>

@@ -13,46 +13,15 @@ class ListParkAdapter(val fragmentManager: FragmentManager, val parks: List<Park
     //var onItemClick: ((Park) -> Unit)? = null
     private val TAG = ListParkAdapter::class.java.simpleName
 
-   /* private var parks = arrayOf(
-        Park(
-            "P019",
-            "Park0001",
-            true,
-            300,
-            50,
-            "2018-11-05 18:06:30",
-            38.7352591,
-            -9.15528429,
-            "Nao"
-        ),
-        Park(
-            "P01khn",
-            "Park0002",
-            true,
-            300,
-            50,
-            "2018-11-05 18:06:30",
-            38.7352591,
-            -9.15528429,
-            "Nao"
-        )
-    )*/
-    // inner class ViewHolder(private val context: Context, itemView: View) : RecyclerView.ViewHolder(itemView) {
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         lateinit var itemPark: TextView
         lateinit var itemInfo: TextView
         lateinit var itemDistance: TextView
-        //lateinit var itemDetalhes: TextView
-
-
-
 
         init {
             itemPark = itemView.findViewById(R.id.parkNameView)
             itemInfo = itemView.findViewById(R.id.kindView) //kindView
             itemDistance = itemView.findViewById(R.id.distanceView)
-            //itemDetalhes = itemView.findViewById(R.id.detalhes)
-            //itemView.setOnClickListener(context);
 
         itemView.setOnClickListener {
                Log.i(TAG,"Coloquei")
@@ -60,10 +29,9 @@ class ListParkAdapter(val fragmentManager: FragmentManager, val parks: List<Park
                NavigationManager.goToDetalhes(fragmentManager, adapterPosition)
 
            }
+
         }
-
     }
-
         override fun onCreateViewHolder(
             parent: ViewGroup,
             viewType: Int
@@ -77,7 +45,6 @@ class ListParkAdapter(val fragmentManager: FragmentManager, val parks: List<Park
             holder.itemPark.text = parks[position].toString()
             holder.itemInfo.text = ""
             holder.itemDistance.text = "0km"
-            //holder.itemDetalhes.text = parks[position].toString()
         }
 
         override fun getItemCount(): Int {

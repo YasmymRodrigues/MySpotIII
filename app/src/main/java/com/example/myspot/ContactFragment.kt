@@ -30,4 +30,6 @@ class ContactFragment : Fragment() {
         root.hiperlink_contact.movementMethod = LinkMovementMethod.getInstance()
         return root
     }
+
+
 }
